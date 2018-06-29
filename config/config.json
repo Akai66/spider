@@ -1,0 +1,8 @@
+{
+	"taskdb": "mysql+taskdb://root:helloworld@127.0.0.1:3306/pyspider_taskdb",
+  	"projectdb": "mysql+projectdb://root:helloworld@127.0.0.1:3306/pyspider_projectdb",
+  	"resultdb": "mysql+resultdb://root:helloworld@127.0.0.1:3306/pyspider_resultdb",
+	"webui": {
+		"port": 5000
+	}
+}
